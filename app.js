@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 
+const MONGO = require('./modules/mongoConnectionModule')
+
 app.listen(3000,()=>{
 
 })
