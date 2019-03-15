@@ -1,6 +1,6 @@
 const config = {
     mongo: {
-        url: 'mongodb://localhost/dicon',
+        url: 'mongodb://localhost/clicker',
         autoRemove: 'interval',
         autoRemoveInterval: 60 // In minutes. Default
     },
