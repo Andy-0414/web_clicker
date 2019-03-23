@@ -11,7 +11,7 @@ body{
     width: 100vw;
     height: 100vh;
 
-    background-color: #010D14;
+    background-color: #EEEEEE;
 }
 
 .loginBox{
@@ -23,15 +23,15 @@ body{
     width: 500px;
     height: 300px;
 
-    background-color: #FFFFFF;
+    background-color: #36AFFF;
 
-    box-shadow: 0px 5px 8px 2px #000000;
+    box-shadow: 0px 5px 20px 2px #99999999;
 }
 .loginBox__logoContent{
     color: 2em;
     font-size: 2em;
     font-weight: bold;
-    color: #36AFFF;
+    color: white;
 
     margin-bottom: 20px;
 }
@@ -44,10 +44,12 @@ body{
 
     padding: 2px;
 
-    border-bottom: 1px solid #36AFFF;
+    border-bottom: 1px solid white;
+
+    background-color: #00000000;
 
     font-size: 1.2em;
-    color: #36AFFF;
+    color: white;
 
     outline: none;
 }
@@ -59,7 +61,7 @@ body{
     display: inline-block;
     width: 100px;
 
-    color: #36AFFF;
+    color: white;
     font-size: 1.2em;
     font-weight: bold;
 }
