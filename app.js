@@ -3,9 +3,7 @@ const app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
-
 const MONGO = require('./modules/mongoConnectionModule')
-
 const User = require('./schema/User')
 
 http.listen(3000, () => {
